@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Reacció d'Esdeveniments</title>
+</head>
+<body>
+    <nav>
+        <p>Sergio Moyano</p>
+        <p>DAW 2B</p>
+    </nav>
+    <div class="content">
+        <h1>M06_05_FT_01 - Reacció a esdeveniments</h1>
+
+        <div class="mainOptions">
+            <div class="box1 elementoClick" id="boxOption">
+                <img src="./media/img/grid.png" alt="">
+            </div>
+            <div class="box2" id="boxOption">
+                <button class="elementoClick" id="button2">Click me!</button>
+            </div>
+            <div class="box3" id="boxOption">
+                <div id="reloj"></div>
+            </div>
+        </div>
+
+        <br>
+        <button class="añadirTarea">Añadir tarea</button><br>
+        <div class="listaTareas"></div>
+    </div>
+
+    <br><br>
+
+    <div class="content">
+        <p>Las tres ventanas superiores sirven para demostrar el uso de los eventos.<br><br>
+            <span>1. Click en la imagen para mostrar un alert() que dice el elemento que hemos hecho click</span><br>
+            <span>2. Click en el botón para mostrar un alert() que dice el elemento que hemos hecho click</span><br>
+            <span>3. Reloj creado con la función setInterval()</span>
+        </p>
+        <p>Finalmente tenemos un botón que permite añadir tareas para demostrar el uso de addEventListener</p>
+    </div>
+    
+    <script src="./main.js"></script>
+</body>
+</html>
